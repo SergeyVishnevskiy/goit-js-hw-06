@@ -1,5 +1,6 @@
 // Задание 8
 // Массив имен всех пользователей у которых есть друг с указанным именем.
+import users from "./users.js";
 
 const getUsersWithFriend = (users, friendName) => {
   // твой код
