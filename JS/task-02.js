@@ -1,5 +1,6 @@
 // Задание 2
 // Получить массив объектов пользователей по цвету глаз (поле eyeColor).
+import users from "./users.js";
 
 const getUsersWithEyeColor = (users, color) => {
   // твой код
