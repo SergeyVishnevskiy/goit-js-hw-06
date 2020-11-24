@@ -1,5 +1,6 @@
 // Задание 6
 // Получить массив пользователей попадающих в возрастную категорию от min до max лет (поле age).
+import users from "./users.js";
 
 const getUsersWithAge = (users, min, max) => {
   // твой код
