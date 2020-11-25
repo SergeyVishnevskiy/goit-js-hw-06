@@ -5,7 +5,8 @@
 import users from "./users.js";
 
 const getSortedUniqueSkills = (users) => {
-  // твой код
+  const set = new Set(users);
+  return [...set];
 };
 
 console.log(getSortedUniqueSkills(users));
