@@ -1,6 +1,6 @@
+import users from "./users.js";
 // Задание 5
 // Получить пользоваля (не массив) по email (поле email, он уникальный).
-import users from "./users.js";
 
 const getUserWithEmail = (users, email) => {
   return users.find((user) => user.email === email);
