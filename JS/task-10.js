@@ -5,8 +5,11 @@
 import users from "./users.js";
 
 const getSortedUniqueSkills = (users) => {
-  const set = new Set(users);
-  return [...set];
+  const skillsArray = users.reduce((acc, user) => {
+    acc.push(...user.skills);
+    return acc;
+  }, []);
+  return [...new Set(skillsArray)].sort();
 };
 
 console.log(getSortedUniqueSkills(users));
